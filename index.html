@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style>
+            td {
+
+                padding: 6px;
+            }
+            .sub td
+            {
+                padding: 6px 40px;
+            }
+
+        </style>
+    </head>
+    <body>
+    <center>
+        <h1>CS506- Assignment # 3 (Fall 2019)</h1>
+        <h3>(Student ID: Bc170402375)</h3><br>
+
+        <h3>Login</h3>
+    </center>
+    <form method="post" action="loginServlet" name="myform">
+        <table align="center" >
+            <tr>
+                <td>Username</td>
+                <td><input type="text" name="uname" id="uname" placeholder="Username" /></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="pass" id="pass" placeholder="Password" /></td>
+            </tr>
+        </table><br>
+        <table align="center" class="sub">
+            <tr>
+                <td><input type="submit" name="login" value="Login" /> </td>
+                <td><input name="reset" type="reset" /></td>
+            </tr>
+        </table>
+
+
+
+    </form>
+</body>
+</html>
